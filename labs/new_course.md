@@ -95,6 +95,8 @@ git push
 
 Go to the settings on github for your newly created repo to enable GitHub
 Pages. Almost at the bottom of that page there is a section devoted to GitHub
-Pages, the source should be `master branch`, ignore all other settings.
+Pages, the source should be `master branch`, ignore all other settings. ***Attention! 
+GitHub Pages are public even if your repo is private***. A workaround for this may be 
+found [through Jekyll](https://github.com/benbalter/jekyll-auth#jekyll-auth)
 
 ![Enable Github pages](../img/github-pages.png){: .center-image}{:width="600"}
