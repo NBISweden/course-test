@@ -166,9 +166,10 @@ There are two types of equations we can define using MathJax: in-line equations 
     &dollar;&dollar; x=y/z &dollar;&dollar;
     
 In-line equation example:
-The equation \( x=y/z \) is unsolvable.
+The equation \\( x=y/z \\) is unsolvable.
 
 Separated equation example:
+
 $$ x=y/z $$
  
 
