@@ -154,3 +154,22 @@ plot(p[1,2])
 {% endhighlight %}
 
 {% raw %}Inside of `raw`/`endraw` it's possible to use {{, }}, {% and %} without problems.{% endraw %}
+
+## Mathematical expressions
+
+There are two types of equations we can define using MathJax: in-line equations and larger equations that appear separated from the rest. The default math delimiters are `$$...$$` for separated equations, and `\\(...\\)` for in-line equations. An example follows below:
+
+    In-line equation example:
+    \\( x_1=y/z \\)
+    
+    Separated equation example:
+    $$ x_2=y/z $$
+    
+In-line equation example:
+The equation \\( x_1=y/z \\) is unsolvable.
+
+Separated equation example:
+
+$$ x_2=y/z $$
+ 
+
