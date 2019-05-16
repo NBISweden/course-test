@@ -157,13 +157,13 @@ plot(p[1,2])
 
 ## Mathematical expressions
 
-There are two types of equations we can define using MathJax: in-line equations and larger equations that appear separated from the rest. The default math delimiters are `$$...$$`for separated equations, and `\(...\)` for in-line equations. An example follows below:
+There are two types of equations we can define using MathJax: in-line equations and larger equations that appear separated from the rest. The default math delimiters are `$$...$$` for separated equations, and `\(...\)` for in-line equations. An example follows below:
 
     In-line equation example:
-    &bsol;&lpar; x=y/z &bsol;&rpar;
+    \( x=y/z \)
     
     Separated equation example:
-    &dollar;&dollar; x=y/z &dollar;&dollar;
+    $$ x=y/z $$
     
 In-line equation example:
 The equation \\( x=y/z \\) is unsolvable.
