@@ -160,22 +160,15 @@ plot(p[1,2])
 There are two types of equations we can define using MathJax: in-line equations and larger equations that appear separated from the rest. The default math delimiters are `$$...$$`for separated equations, and `\(...\)` for in-line equations. An example follows below:
 
     In-line equation example:
-    {% raw %}
     &bsol;&lpar; x=y/z &bsol;&rpar;
-    {% endraw %}
     
     Separated equation example:
-    {% raw %}
     &dollar;&dollar; x=y/z &dollar;&dollar;
-    {% endraw %}
     
 In-line equation example:
-{% raw %}
 The equation \( x=y/z \) is unsolvable.
-{% endraw %}  
 
 Separated equation example:
-{% raw %}
 $$ x=y/z $$
-{% endraw %} 
+ 
 
