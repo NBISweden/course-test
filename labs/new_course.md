@@ -91,6 +91,24 @@ git commit -m 'Base course template'
 git push
 {% endhighlight %}
 
+#### Elixir template
+The layout comes in two flavours; an NBIS version (default) and an Elixir version.
+To get the Elixir version, run
+
+{% highlight bash %}
+git config -f .gitmodules submodule.workshop-common.branch feature/elixir_mode
+git submodule update --remote
+{% endhighlight %}
+
+
+Again, don't forget to commit and push:
+
+{% highlight bash %}
+git add workshop-common .gitmodules
+git commit -m "Use elixir layout"
+git push
+{% endhighlight %}
+
 ## Step 3. Enable GitHub Pages
 
 Go to the settings on github for your newly created repo to enable GitHub
