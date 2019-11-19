@@ -73,7 +73,7 @@ git commit -m 'Added <WORKSHOP> submodule to the archive'
 In our case it will look like this:
 
 {% highlight bash %}
-git submodule add -b archive/2019-10-09 -- https://github.com/NBISweden/workshop-archive.git workshop-archive/2019-10-09
+git submodule add -b archive/2019-10-09 -- https://github.com/NBISweden/workshop-howto.git workshop-howto/2019-10-09
 git commit -m 'Added workshop-howto/2019-10-09 submodule to the archive'
 {% endhighlight %}
 
@@ -86,7 +86,7 @@ pattern that is already there. Then commit it:
 
 {% highlight bash %}
 git add index.md
-git commit -m 'Added workshop-howot/2019-10-09 to the index`
+git commit -m 'Added workshop-howto/2019-10-09 to the index`
 {% endhighlight %}
 
 ## Step 5: Push your changes and make a pull request
